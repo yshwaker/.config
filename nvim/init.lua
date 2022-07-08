@@ -1,4 +1,4 @@
-require "user.impatient"  -- this needs to be first
+require "user.impatient" -- this needs to be first
 require "user.options"
 require "user.keymaps"
 require "user.plugins"
