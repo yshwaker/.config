@@ -86,9 +86,11 @@ return packer.startup(function(use)
 	use "neovim/nvim-lspconfig"
 	use "williamboman/nvim-lsp-installer"
 	use "jose-elias-alvarez/null-ls.nvim" -- for formatters and linters
+	use "jose-elias-alvarez/nvim-lsp-ts-utils" -- better typescript DX
 
 	-- Telescope
 	use "nvim-telescope/telescope.nvim"
+	use { "nvim-telescope/telescope-fzf-native.nvim", run = "make" }
 	-- use 'nvim-telescope/telescope-media-files.nvim'
 
 	-- Treesitter

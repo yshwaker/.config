@@ -14,7 +14,7 @@ null_ls.setup {
 	debug = false,
 	sources = {
 		formatting.prettier,
-		code_actions.eslint_d,
+		code_actions.eslint_d, -- eslint_d is the faster eslint
 		-- formatting.black.with { extra_args = { "--fast" } },
 		-- formatting.yapf,
 		formatting.stylua.with { extra_args = { "--call-parentheses", "None" } },
