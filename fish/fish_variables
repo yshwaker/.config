@@ -17,9 +17,11 @@ SETUVAR _fish_abbr_gds:git\x20diff\x20\x2d\x2dstaged
 SETUVAR _fish_abbr_gf:git\x20fetch
 SETUVAR _fish_abbr_gp:git\x20push
 SETUVAR _fish_abbr_gst:git\x20status\x20\x2dsb
+SETUVAR _fisher_PatrickF1_2F_fzf_2E_fish_files:/Users/shihaoy/\x2econfig/fish/functions/_fzf_configure_bindings_help\x2efish\x1e/Users/shihaoy/\x2econfig/fish/functions/_fzf_extract_var_info\x2efish\x1e/Users/shihaoy/\x2econfig/fish/functions/_fzf_preview_changed_file\x2efish\x1e/Users/shihaoy/\x2econfig/fish/functions/_fzf_preview_file\x2efish\x1e/Users/shihaoy/\x2econfig/fish/functions/_fzf_report_file_type\x2efish\x1e/Users/shihaoy/\x2econfig/fish/functions/_fzf_search_directory\x2efish\x1e/Users/shihaoy/\x2econfig/fish/functions/_fzf_search_git_log\x2efish\x1e/Users/shihaoy/\x2econfig/fish/functions/_fzf_search_git_status\x2efish\x1e/Users/shihaoy/\x2econfig/fish/functions/_fzf_search_history\x2efish\x1e/Users/shihaoy/\x2econfig/fish/functions/_fzf_search_processes\x2efish\x1e/Users/shihaoy/\x2econfig/fish/functions/_fzf_search_variables\x2efish\x1e/Users/shihaoy/\x2econfig/fish/functions/_fzf_wrapper\x2efish\x1e/Users/shihaoy/\x2econfig/fish/functions/fzf_configure_bindings\x2efish\x1e/Users/shihaoy/\x2econfig/fish/conf\x2ed/fzf\x2efish\x1e/Users/shihaoy/\x2econfig/fish/completions/fzf_configure_bindings\x2efish
 SETUVAR _fisher_jethrokuan_2F_z_files:/Users/shihaoy/\x2econfig/fish/functions/__z\x2efish\x1e/Users/shihaoy/\x2econfig/fish/functions/__z_add\x2efish\x1e/Users/shihaoy/\x2econfig/fish/functions/__z_clean\x2efish\x1e/Users/shihaoy/\x2econfig/fish/functions/__z_complete\x2efish\x1e/Users/shihaoy/\x2econfig/fish/conf\x2ed/z\x2efish
-SETUVAR _fisher_jorgebucaran_2F_fisher_files:/Users/shihaoy/\x2econfig/fish/functions/fisher\x2efish\x1e/Users/shihaoy/\x2econfig/fish/completions/fisher\x2efish
-SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ejethrokuan/z
+SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ejethrokuan/z\x1ePatrickF1/fzf\x2efish
+SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR fish_color_autosuggestion:8A9199
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:55B4D4
