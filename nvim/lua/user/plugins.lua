@@ -62,6 +62,8 @@ return packer.startup(function(use)
 		wants = { "nvim-treesitter" },
 	}
 	use "karb94/neoscroll.nvim"
+	use "kylechui/nvim-surround"
+	use "ggandor/leap.nvim"
 
 	-- Colorschemes
 	use {
