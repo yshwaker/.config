@@ -43,10 +43,11 @@ keymap("n", "<A-j>", "<Esc>:m .+1<CR>==gi", opts)
 keymap("n", "p", "p=`]", opts)
 
 -- Do not yank
-keymap("n", "x", "_x", opts)
+keymap("n", "x", '"_x', opts)
 -- Insert --
 -- Press jk fast to enter
 -- keymap("i", "jk", "<ESC>", opts)
+-- keymap("i", "<C-[", "<ESC>", opts)
 
 -- Visual --
 -- Stay in indent mode

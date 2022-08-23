@@ -45,6 +45,7 @@ return packer.startup(function(use)
 	use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
 	use "nvim-lua/plenary.nvim" -- Useful lua functions used by lots of plugins
 	use "windwp/nvim-autopairs" -- Auto pairs, integrates with both cmp and treesitter
+	use "windwp/nvim-ts-autotag"
 	use "numToStr/Comment.nvim" -- Easily comment stuff
 	use "kyazdani42/nvim-web-devicons"
 	use "kyazdani42/nvim-tree.lua"
@@ -71,6 +72,7 @@ return packer.startup(function(use)
 		as = "everforest",
 	}
 	use { "rose-pine/neovim", as = "rose-pine" }
+	use "EdenEast/nightfox.nvim"
 
 	-- Cmp plugins
 	use "hrsh7th/nvim-cmp" -- The completion plugin
@@ -89,6 +91,7 @@ return packer.startup(function(use)
 	use "williamboman/mason-lspconfig.nvim"
 	use "neovim/nvim-lspconfig"
 	use "jose-elias-alvarez/null-ls.nvim" -- for formatters and linters
+	use "ray-x/lsp_signature.nvim"
 
 	-- Telescope
 	use "nvim-telescope/telescope.nvim"
