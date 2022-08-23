@@ -1,11 +1,8 @@
-local status_ok, ts_utils = pcall(require, "nvim-lsp-ts-utils")
-if not status_ok then
-	return
-end
-
 return {
-	on_attach = function(client)
-		ts_utils.setup {}
-		ts_utils.setup_client(client)
-	end,
+	server = {
+		on_attach = function(client, _)
+			client.resolved_capabilities.document_formatting = false
+			client.resolved_capabilities.document_range_formatting = false
+		end,
+	},
 }

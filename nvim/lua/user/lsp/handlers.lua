@@ -86,18 +86,9 @@ local function lsp_keymaps(bufnr)
 end
 
 M.on_attach = function(client, bufnr)
-	if client.name == "tsserver" then
-		client.resolved_capabilities.document_formatting = false
-		-- local status_ok, ts_utils = pcall(require, "nvim-lsp-ts-utils")
-		-- if status_ok then
-		-- 	ts_utils.setup {
-		-- 		enable_import_on_completion = true,
-		-- 	}
-		-- 	ts_utils.setup_client(client)
-		-- end
-	end
 	if client.name == "sumneko_lua" then
 		client.resolved_capabilities.document_formatting = false
+		client.resolved_capabilities.document_range_formatting = false
 	end
 	lsp_keymaps(bufnr)
 	lsp_highlight_document(client)

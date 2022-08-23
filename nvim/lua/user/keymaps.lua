@@ -42,6 +42,8 @@ keymap("n", "<A-j>", "<Esc>:m .+1<CR>==gi", opts)
 -- better indent for pasting stuff
 keymap("n", "p", "p=`]", opts)
 
+-- Do not yank
+keymap("n", "x", "_x", opts)
 -- Insert --
 -- Press jk fast to enter
 -- keymap("i", "jk", "<ESC>", opts)

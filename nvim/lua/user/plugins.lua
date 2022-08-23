@@ -85,10 +85,10 @@ return packer.startup(function(use)
 	use "rafamadriz/friendly-snippets" -- a bunch of snippets to use
 
 	-- LSP
+	use "williamboman/mason.nvim"
+	use "williamboman/mason-lspconfig.nvim"
 	use "neovim/nvim-lspconfig"
-	use "williamboman/nvim-lsp-installer"
 	use "jose-elias-alvarez/null-ls.nvim" -- for formatters and linters
-	use "jose-elias-alvarez/nvim-lsp-ts-utils" -- better typescript DX
 
 	-- Telescope
 	use "nvim-telescope/telescope.nvim"
@@ -106,6 +106,9 @@ return packer.startup(function(use)
 
 	-- Git
 	use "lewis6991/gitsigns.nvim"
+
+	-- Typescript
+	use "jose-elias-alvarez/typescript.nvim"
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
