@@ -4,6 +4,7 @@ if not status_ok then
 end
 
 -- telescope.load_extension('media_files')
+telescope.load_extension "file_browser"
 
 local actions = require "telescope.actions"
 local action_layout = require "telescope.actions.layout"
@@ -97,5 +98,6 @@ telescope.setup {
 		--   extension_config_key = value,
 		-- }
 		-- please take a look at the readme of the extension you want to configure
+		file_browser = {},
 	},
 }

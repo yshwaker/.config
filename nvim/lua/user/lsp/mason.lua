@@ -45,12 +45,12 @@ for _, server in pairs(servers) do
 
 	if server == "tsserver" then
 		local tsserver_opts = require "user.lsp.settings.tsserver"
+		opts = vim.tbl_deep_extend("force", tsserver_opts, opts)
 		local typescipt_status_ok, typescript = pcall(require, "typescript")
 		if not typescipt_status_ok then
 			return
 		end
-
-		typescript.setup(tsserver_opts)
+		typescript.setup { server = opts }
 		goto continue
 	end
 
